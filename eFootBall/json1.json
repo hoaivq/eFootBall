@@ -1,0 +1,2281 @@
+﻿[
+  {
+    "book_id": 520,
+    "book_name": "Tipsport.cz",
+    "book_logo": "//img.calfscore.com/bookies/520.png",
+    "odds": {
+      "1": [
+        {
+          "value": 2.2,
+          "value0": 1.82,
+          "ovalue": "-1",
+          "ovalue0": "-1",
+          "type": "1",
+          "update_time": "2023-10-03T08:52:39.000Z"
+        },
+        {
+          "value": 1.6,
+          "value0": 1.88,
+          "ovalue": "-1",
+          "ovalue0": "-1",
+          "type": "2",
+          "update_time": "2023-10-03T08:52:39.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 1.95,
+          "value0": 1.52,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T09:41:56.000Z"
+        },
+        {
+          "value": 3.54,
+          "value0": 5.57,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T09:41:56.000Z"
+        },
+        {
+          "value": 3.51,
+          "value0": 4.14,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T09:41:56.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.71,
+          "value0": 1.88,
+          "ovalue": "2.5",
+          "ovalue0": "3",
+          "type": "over",
+          "update_time": "2023-10-04T14:16:56.000Z"
+        },
+        {
+          "value": 2.02,
+          "value0": 1.82,
+          "ovalue": "2.5",
+          "ovalue0": "3",
+          "type": "under",
+          "update_time": "2023-10-04T14:16:56.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.48,
+          "value0": 1.99,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T09:42:00.000Z"
+        },
+        {
+          "value": 3.96,
+          "value0": 5.35,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T09:42:00.000Z"
+        },
+        {
+          "value": 2.23,
+          "value0": 2.43,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T09:42:00.000Z"
+        }
+      ],
+      "14": [
+        {
+          "value": 1.66,
+          "value0": 2.29,
+          "ovalue": "1",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-10-03T09:47:43.000Z"
+        },
+        {
+          "value": 2.02,
+          "value0": 1.51,
+          "ovalue": "1",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-10-03T09:47:43.000Z"
+        }
+      ],
+      "27": [
+        {
+          "value": 2.27,
+          "value0": 1.83,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T09:42:04.000Z"
+        },
+        {
+          "value": 3.61,
+          "value0": 4.91,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T09:42:04.000Z"
+        },
+        {
+          "value": 2.58,
+          "value0": 2.85,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T09:42:04.000Z"
+        }
+      ],
+      "122": [
+        {
+          "value": 1.55,
+          "value0": 1.71,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-10-04T15:55:55.000Z"
+        },
+        {
+          "value": 2.21,
+          "value0": 2.02,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-10-04T15:55:55.000Z"
+        }
+      ],
+      "128": [
+        {
+          "value": 3.2,
+          "value0": 1.96,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        },
+        {
+          "value": 3.98,
+          "value0": 3.49,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        },
+        {
+          "value": 1.94,
+          "value0": 3.51,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        }
+      ],
+      "133": [
+        {
+          "value": 30,
+          "value0": 2.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        },
+        {
+          "value": 35,
+          "value0": 3.92,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        },
+        {
+          "value": 1.01,
+          "value0": 2.23,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        }
+      ],
+      "134": [
+        {
+          "value": 5.6,
+          "value0": 1.66,
+          "ovalue": "2.5",
+          "ovalue0": "1",
+          "type": "over",
+          "update_time": "2023-10-04T14:54:20.000Z"
+        },
+        {
+          "value": 1.09,
+          "value0": 2.01,
+          "ovalue": "2.5",
+          "ovalue0": "1",
+          "type": "under",
+          "update_time": "2023-10-04T14:54:20.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 31,
+    "book_name": "Bet365",
+    "book_logo": "//img.calfscore.com/bookies/31.png",
+    "odds": {
+      "1": [
+        {
+          "value": 1.95,
+          "value0": 1.85,
+          "ovalue": "-0.5",
+          "ovalue0": "-0.75",
+          "type": "1",
+          "update_time": "2023-10-04T13:50:40.000Z"
+        },
+        {
+          "value": 1.85,
+          "value0": 1.95,
+          "ovalue": "-0.5",
+          "ovalue0": "-0.75",
+          "type": "2",
+          "update_time": "2023-10-04T13:50:40.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 1.95,
+          "value0": 1.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T09:08:31.000Z"
+        },
+        {
+          "value": 3.2,
+          "value0": 5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T09:08:31.000Z"
+        },
+        {
+          "value": 4.33,
+          "value0": 4,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T09:08:31.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 2,
+          "value0": 1.57,
+          "ovalue": "2.75",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-10-04T13:50:41.000Z"
+        },
+        {
+          "value": 1.8,
+          "value0": 2.35,
+          "ovalue": "2.75",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-10-04T13:50:41.000Z"
+        }
+      ],
+      "9": [
+        {
+          "value": 1.8,
+          "value0": 1.8,
+          "ovalue": "10.5",
+          "ovalue0": "10.5",
+          "type": "over",
+          "update_time": "2023-10-03T18:35:48.000Z"
+        },
+        {
+          "value": 1.91,
+          "value0": 1.91,
+          "ovalue": "10.5",
+          "ovalue0": "10.5",
+          "type": "under",
+          "update_time": "2023-10-03T18:35:48.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.5,
+          "value0": 2.05,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T09:14:02.000Z"
+        },
+        {
+          "value": 4,
+          "value0": 5.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T09:14:02.000Z"
+        },
+        {
+          "value": 2.3,
+          "value0": 2.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T09:14:02.000Z"
+        }
+      ],
+      "13": [
+        {
+          "value": 2.05,
+          "value0": 1.83,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "1",
+          "update_time": "2023-10-03T16:01:56.000Z"
+        },
+        {
+          "value": 1.75,
+          "value0": 1.98,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "2",
+          "update_time": "2023-10-03T16:01:56.000Z"
+        }
+      ],
+      "14": [
+        {
+          "value": 1.73,
+          "value0": 2.03,
+          "ovalue": "1",
+          "ovalue0": "1.25",
+          "type": "over",
+          "update_time": "2023-10-04T14:07:30.000Z"
+        },
+        {
+          "value": 2.08,
+          "value0": 1.78,
+          "ovalue": "1",
+          "ovalue0": "1.25",
+          "type": "under",
+          "update_time": "2023-10-04T14:07:30.000Z"
+        }
+      ],
+      "26": [
+        {
+          "value": 1.83,
+          "value0": 1.83,
+          "ovalue": "5",
+          "ovalue0": "5",
+          "type": "over",
+          "update_time": "2023-10-03T18:35:48.000Z"
+        },
+        {
+          "value": 1.98,
+          "value0": 1.98,
+          "ovalue": "5",
+          "ovalue0": "5",
+          "type": "under",
+          "update_time": "2023-10-03T18:35:48.000Z"
+        }
+      ],
+      "27": [
+        {
+          "value": 2.25,
+          "value0": 1.95,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T11:10:48.000Z"
+        },
+        {
+          "value": 3.5,
+          "value0": 4,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T11:10:48.000Z"
+        },
+        {
+          "value": 2.63,
+          "value0": 2.75,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T11:10:48.000Z"
+        }
+      ],
+      "29": [
+        {
+          "value": 1.91,
+          "value0": 1.8,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-10-03T11:10:50.000Z"
+        },
+        {
+          "value": 1.8,
+          "value0": 1.91,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-10-03T11:10:50.000Z"
+        }
+      ],
+      "121": [
+        {
+          "value": 1.77,
+          "value0": 1.98,
+          "ovalue": "0",
+          "ovalue0": "-0.5",
+          "type": "1",
+          "update_time": "2023-10-04T15:56:45.000Z"
+        },
+        {
+          "value": 2.1,
+          "value0": 1.88,
+          "ovalue": "0",
+          "ovalue0": "-0.5",
+          "type": "2",
+          "update_time": "2023-10-04T15:56:45.000Z"
+        }
+      ],
+      "122": [
+        {
+          "value": 1.83,
+          "value0": 1.98,
+          "ovalue": "2.75",
+          "ovalue0": "2.75",
+          "type": "over",
+          "update_time": "2023-10-04T15:56:44.000Z"
+        },
+        {
+          "value": 2.03,
+          "value0": 1.88,
+          "ovalue": "2.75",
+          "ovalue0": "2.75",
+          "type": "under",
+          "update_time": "2023-10-04T15:56:44.000Z"
+        }
+      ],
+      "128": [
+        {
+          "value": 3.25,
+          "value0": 1.95,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T15:56:45.000Z"
+        },
+        {
+          "value": 3.75,
+          "value0": 3.2,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T15:56:45.000Z"
+        },
+        {
+          "value": 1.95,
+          "value0": 4.33,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T15:56:45.000Z"
+        }
+      ],
+      "130": [
+        {
+          "value": 2.25,
+          "value0": 1.8,
+          "ovalue": "8.5",
+          "ovalue0": "10.5",
+          "type": "over",
+          "update_time": "2023-10-04T15:52:53.000Z"
+        },
+        {
+          "value": 1.57,
+          "value0": 1.91,
+          "ovalue": "8.5",
+          "ovalue0": "10.5",
+          "type": "under",
+          "update_time": "2023-10-04T15:52:53.000Z"
+        }
+      ],
+      "132": [
+        {
+          "value": 1.7,
+          "value0": 2.05,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "1",
+          "update_time": "2023-10-04T14:54:20.000Z"
+        },
+        {
+          "value": 2.1,
+          "value0": 1.75,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "2",
+          "update_time": "2023-10-04T14:54:20.000Z"
+        }
+      ],
+      "133": [
+        {
+          "value": 12,
+          "value0": 2.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        },
+        {
+          "value": 15,
+          "value0": 4,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        },
+        {
+          "value": 1.07,
+          "value0": 2.3,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        }
+      ],
+      "134": [
+        {
+          "value": 8,
+          "value0": 1.73,
+          "ovalue": "2.5",
+          "ovalue0": "1",
+          "type": "over",
+          "update_time": "2023-10-04T14:54:20.000Z"
+        },
+        {
+          "value": 1.08,
+          "value0": 2.08,
+          "ovalue": "2.5",
+          "ovalue0": "1",
+          "type": "under",
+          "update_time": "2023-10-04T14:54:20.000Z"
+        }
+      ],
+      "160": [
+        {
+          "value": 2.6,
+          "value0": 2.25,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:32:28.000Z"
+        },
+        {
+          "value": 3.2,
+          "value0": 3.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:32:28.000Z"
+        },
+        {
+          "value": 2.4,
+          "value0": 2.6,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:32:28.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 5,
+    "book_name": "William Hill",
+    "book_logo": "//img.calfscore.com/bookies/5.png",
+    "odds": {
+      "1": [
+        {
+          "value": 1.88,
+          "value0": 1.88,
+          "ovalue": "-0.5",
+          "ovalue0": "-1",
+          "type": "1",
+          "update_time": "2023-10-03T17:28:21.000Z"
+        },
+        {
+          "value": 1.84,
+          "value0": 1.86,
+          "ovalue": "-0.5",
+          "ovalue0": "-1",
+          "type": "2",
+          "update_time": "2023-10-03T17:28:21.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 1.83,
+          "value0": 1.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-02T18:09:29.000Z"
+        },
+        {
+          "value": 3.4,
+          "value0": 5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-02T18:09:29.000Z"
+        },
+        {
+          "value": 3.75,
+          "value0": 4.2,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-02T18:09:29.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.62,
+          "value0": 1.57,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-10-02T18:09:38.000Z"
+        },
+        {
+          "value": 2.2,
+          "value0": 2.3,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-10-02T18:09:38.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.3,
+          "value0": 2,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-02T18:09:38.000Z"
+        },
+        {
+          "value": 3.9,
+          "value0": 4.4,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-02T18:09:38.000Z"
+        },
+        {
+          "value": 2.3,
+          "value0": 2.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-02T18:09:38.000Z"
+        }
+      ],
+      "14": [
+        {
+          "value": 2.38,
+          "value0": 2.2,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-10-02T18:02:23.000Z"
+        },
+        {
+          "value": 1.53,
+          "value0": 1.62,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-10-02T18:02:23.000Z"
+        }
+      ],
+      "27": [
+        {
+          "value": 2.2,
+          "value0": 1.83,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-02T18:09:37.000Z"
+        },
+        {
+          "value": 3.7,
+          "value0": 4.8,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-02T18:09:37.000Z"
+        },
+        {
+          "value": 2.5,
+          "value0": 2.7,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-02T18:09:37.000Z"
+        }
+      ],
+      "29": [
+        {
+          "value": 1.85,
+          "value0": 1.8,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-10-02T18:02:25.000Z"
+        },
+        {
+          "value": 1.85,
+          "value0": 1.91,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-10-02T18:02:25.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 6,
+    "book_name": "Vcbet",
+    "book_logo": "//img.calfscore.com/bookies/6.jpg",
+    "odds": {
+      "1": [
+        {
+          "value": 1.8,
+          "value0": 1.83,
+          "ovalue": "-0.5",
+          "ovalue0": "-0.5",
+          "type": "1",
+          "update_time": "2023-10-03T22:08:53.000Z"
+        },
+        {
+          "value": 1.98,
+          "value0": 1.91,
+          "ovalue": "-0.5",
+          "ovalue0": "-0.5",
+          "type": "2",
+          "update_time": "2023-10-03T22:08:53.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 1.85,
+          "value0": 1.8,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T21:41:43.000Z"
+        },
+        {
+          "value": 3.7,
+          "value0": 3.6,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T21:41:43.000Z"
+        },
+        {
+          "value": 3.5,
+          "value0": 3.7,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T21:41:43.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.89,
+          "value0": 2,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "over",
+          "update_time": "2023-10-03T22:08:53.000Z"
+        },
+        {
+          "value": 1.9,
+          "value0": 1.75,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "under",
+          "update_time": "2023-10-03T22:08:53.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 7,
+    "book_name": "Ladbrokes",
+    "book_logo": "//img.calfscore.com/bookies/7.jpg",
+    "odds": {
+      "2": [
+        {
+          "value": 1.95,
+          "value0": 1.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.3,
+          "value0": 5.25,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.25,
+          "value0": 3.9,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 9,
+    "book_name": "Bwin",
+    "book_logo": "//img.calfscore.com/bookies/9.png",
+    "odds": {
+      "2": [
+        {
+          "value": 1.95,
+          "value0": 1.52,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.4,
+          "value0": 5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.4,
+          "value0": 4.2,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 35,
+    "book_name": "Pinnacle Sports",
+    "book_logo": "//img.calfscore.com/bookies/35.png",
+    "odds": {
+      "1": [
+        {
+          "value": 1.96,
+          "value0": 2.24,
+          "ovalue": "-0.5",
+          "ovalue0": "-1.25",
+          "type": "1",
+          "update_time": "2023-10-03T14:54:45.000Z"
+        },
+        {
+          "value": 1.89,
+          "value0": 1.68,
+          "ovalue": "-0.5",
+          "ovalue0": "-1.25",
+          "type": "2",
+          "update_time": "2023-10-03T14:54:45.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 1.96,
+          "value0": 1.56,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 3.72,
+          "value0": 5.61,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 3.74,
+          "value0": 4.14,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 2.01,
+          "value0": 2.11,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "over",
+          "update_time": "2023-10-03T14:47:47.000Z"
+        },
+        {
+          "value": 1.83,
+          "value0": 1.74,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "under",
+          "update_time": "2023-10-03T14:47:47.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.57,
+          "value0": 2.12,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        },
+        {
+          "value": 4.2,
+          "value0": 5.53,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        },
+        {
+          "value": 2.36,
+          "value0": 2.44,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        }
+      ],
+      "13": [
+        {
+          "value": 2.06,
+          "value0": 2.06,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.5",
+          "type": "1",
+          "update_time": "2023-10-03T09:42:01.000Z"
+        },
+        {
+          "value": 1.79,
+          "value0": 1.66,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.5",
+          "type": "2",
+          "update_time": "2023-10-03T09:42:01.000Z"
+        }
+      ],
+      "14": [
+        {
+          "value": 1.74,
+          "value0": 2.05,
+          "ovalue": "1",
+          "ovalue0": "1.25",
+          "type": "over",
+          "update_time": "2023-10-04T14:17:05.000Z"
+        },
+        {
+          "value": 2.14,
+          "value0": 1.67,
+          "ovalue": "1",
+          "ovalue0": "1.25",
+          "type": "under",
+          "update_time": "2023-10-04T14:17:05.000Z"
+        }
+      ],
+      "121": [
+        {
+          "value": 1.79,
+          "value0": 1.79,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "1",
+          "update_time": "2023-10-04T15:15:56.000Z"
+        },
+        {
+          "value": 2.06,
+          "value0": 2.06,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "2",
+          "update_time": "2023-10-04T15:15:56.000Z"
+        }
+      ],
+      "122": [
+        {
+          "value": 1.84,
+          "value0": 1.81,
+          "ovalue": "2.75",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-10-04T15:53:35.000Z"
+        },
+        {
+          "value": 1.99,
+          "value0": 2.03,
+          "ovalue": "2.75",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-10-04T15:53:35.000Z"
+        }
+      ],
+      "128": [
+        {
+          "value": 3.3,
+          "value0": 2.04,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        },
+        {
+          "value": 3.72,
+          "value0": 3.38,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        },
+        {
+          "value": 2,
+          "value0": 3.48,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        }
+      ],
+      "132": [
+        {
+          "value": 1.76,
+          "value0": 2.11,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "1",
+          "update_time": "2023-10-04T15:01:22.000Z"
+        },
+        {
+          "value": 2.08,
+          "value0": 1.74,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "2",
+          "update_time": "2023-10-04T15:01:22.000Z"
+        }
+      ],
+      "133": [
+        {
+          "value": 10.43,
+          "value0": 2.65,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        },
+        {
+          "value": 12.06,
+          "value0": 4.14,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        },
+        {
+          "value": 1.13,
+          "value0": 2.2,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        }
+      ],
+      "134": [
+        {
+          "value": 6.08,
+          "value0": 1.75,
+          "ovalue": "2.5",
+          "ovalue0": "1",
+          "type": "over",
+          "update_time": "2023-10-04T15:04:04.000Z"
+        },
+        {
+          "value": 1.13,
+          "value0": 2.09,
+          "ovalue": "2.5",
+          "ovalue0": "1",
+          "type": "under",
+          "update_time": "2023-10-04T15:04:04.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 79,
+    "book_name": "Betfair",
+    "book_logo": "//img.calfscore.com/bookies/79.png",
+    "odds": {
+      "2": [
+        {
+          "value": 1.95,
+          "value0": 1.44,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 3.6,
+          "value0": 6.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 3.6,
+          "value0": 4.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.65,
+          "value0": 1.57,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-09-30T16:49:33.000Z"
+        },
+        {
+          "value": 2.1,
+          "value0": 2.25,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-09-30T16:49:33.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.4,
+          "value0": 1.91,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        },
+        {
+          "value": 4,
+          "value0": 5.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        },
+        {
+          "value": 2.2,
+          "value0": 2.4,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 110,
+    "book_name": "SBObet",
+    "book_logo": "//img.calfscore.com/bookies/110.png",
+    "odds": {
+      "1": [
+        {
+          "value": 1.93,
+          "value0": 1.87,
+          "ovalue": "-0.5",
+          "ovalue0": "-1",
+          "type": "1",
+          "update_time": "2023-10-03T22:08:53.000Z"
+        },
+        {
+          "value": 1.91,
+          "value0": 1.95,
+          "ovalue": "-0.5",
+          "ovalue0": "-1",
+          "type": "2",
+          "update_time": "2023-10-03T22:08:53.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 1.99,
+          "value0": 1.51,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.3,
+          "value0": 4.6,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.2,
+          "value0": 4.1,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.94,
+          "value0": 1.9,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "over",
+          "update_time": "2023-10-03T22:08:53.000Z"
+        },
+        {
+          "value": 1.88,
+          "value0": 1.9,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "under",
+          "update_time": "2023-10-03T22:08:53.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 138,
+    "book_name": "188bet",
+    "book_logo": "//img.calfscore.com/bookies/138.png",
+    "odds": {
+      "1": [
+        {
+          "value": 2,
+          "value0": 1.9,
+          "ovalue": "-0.5",
+          "ovalue0": "-0.75",
+          "type": "1",
+          "update_time": "2023-10-03T20:53:56.000Z"
+        },
+        {
+          "value": 1.92,
+          "value0": 1.86,
+          "ovalue": "-0.5",
+          "ovalue0": "-0.75",
+          "type": "2",
+          "update_time": "2023-10-03T20:53:56.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 2.06,
+          "value0": 1.66,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.2,
+          "value0": 4.25,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.55,
+          "value0": 4.1,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.94,
+          "value0": 2.05,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "over",
+          "update_time": "2023-10-03T20:53:56.000Z"
+        },
+        {
+          "value": 1.94,
+          "value0": 1.83,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "under",
+          "update_time": "2023-10-03T20:53:56.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 225,
+    "book_name": "1xbet",
+    "book_logo": "//img.calfscore.com/bookies/225.png",
+    "odds": {
+      "1": [
+        {
+          "value": 1.74,
+          "value0": 1.93,
+          "ovalue": "-0.25",
+          "ovalue0": "-1.25",
+          "type": "1",
+          "update_time": "2023-10-04T14:16:55.000Z"
+        },
+        {
+          "value": 2.1,
+          "value0": 1.84,
+          "ovalue": "-0.25",
+          "ovalue0": "-1.25",
+          "type": "2",
+          "update_time": "2023-10-04T14:16:55.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 1.93,
+          "value0": 1.41,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 3.16,
+          "value0": 6.23,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 4.28,
+          "value0": 4.33,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.81,
+          "value0": 1.57,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-10-04T14:26:58.000Z"
+        },
+        {
+          "value": 2,
+          "value0": 2.25,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-10-04T14:26:58.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.44,
+          "value0": 1.93,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        },
+        {
+          "value": 3.9,
+          "value0": 5.74,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        },
+        {
+          "value": 2.25,
+          "value0": 2.4,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        }
+      ],
+      "13": [
+        {
+          "value": 2.06,
+          "value0": 1.59,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.25",
+          "type": "1",
+          "update_time": "2023-09-30T17:04:17.000Z"
+        },
+        {
+          "value": 1.76,
+          "value0": 2.28,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.25",
+          "type": "2",
+          "update_time": "2023-09-30T17:04:17.000Z"
+        }
+      ],
+      "14": [
+        {
+          "value": 2.09,
+          "value0": 2.38,
+          "ovalue": "1.25",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-09-30T17:04:17.000Z"
+        },
+        {
+          "value": 1.7,
+          "value0": 1.53,
+          "ovalue": "1.25",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-09-30T17:04:17.000Z"
+        }
+      ],
+      "27": [
+        {
+          "value": 2.24,
+          "value0": 1.73,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T17:04:17.000Z"
+        },
+        {
+          "value": 3.59,
+          "value0": 5.45,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T17:04:17.000Z"
+        },
+        {
+          "value": 2.59,
+          "value0": 2.99,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T17:04:17.000Z"
+        }
+      ],
+      "28": [
+        {
+          "value": 1.89,
+          "value0": 2,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.75",
+          "type": "1",
+          "update_time": "2023-10-03T09:47:43.000Z"
+        },
+        {
+          "value": 1.85,
+          "value0": 1.76,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.75",
+          "type": "2",
+          "update_time": "2023-10-03T09:47:43.000Z"
+        }
+      ],
+      "29": [
+        {
+          "value": 1.97,
+          "value0": 1.76,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-09-30T17:20:10.000Z"
+        },
+        {
+          "value": 1.71,
+          "value0": 2,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-09-30T17:20:10.000Z"
+        }
+      ],
+      "121": [
+        {
+          "value": 1.75,
+          "value0": 1.74,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "1",
+          "update_time": "2023-10-04T15:47:48.000Z"
+        },
+        {
+          "value": 2.08,
+          "value0": 2.1,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "2",
+          "update_time": "2023-10-04T15:47:48.000Z"
+        }
+      ],
+      "122": [
+        {
+          "value": 1.71,
+          "value0": 1.81,
+          "ovalue": "2.75",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-10-04T15:55:55.000Z"
+        },
+        {
+          "value": 2.13,
+          "value0": 2,
+          "ovalue": "2.75",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-10-04T15:55:55.000Z"
+        }
+      ],
+      "128": [
+        {
+          "value": 3.1,
+          "value0": 1.93,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        },
+        {
+          "value": 4.01,
+          "value0": 3.16,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        },
+        {
+          "value": 2.01,
+          "value0": 4.28,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:32:19.000Z"
+        }
+      ],
+      "132": [
+        {
+          "value": 1.82,
+          "value0": 2.06,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "1",
+          "update_time": "2023-10-04T14:54:20.000Z"
+        },
+        {
+          "value": 1.99,
+          "value0": 1.76,
+          "ovalue": "0",
+          "ovalue0": "-0.25",
+          "type": "2",
+          "update_time": "2023-10-04T14:54:20.000Z"
+        }
+      ],
+      "133": [
+        {
+          "value": 12.2,
+          "value0": 2.44,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        },
+        {
+          "value": 14.1,
+          "value0": 3.9,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        },
+        {
+          "value": 1.05,
+          "value0": 2.25,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:33:37.000Z"
+        }
+      ],
+      "134": [
+        {
+          "value": 6.28,
+          "value0": 2.18,
+          "ovalue": "2.5",
+          "ovalue0": "1.25",
+          "type": "over",
+          "update_time": "2023-10-04T14:52:14.000Z"
+        },
+        {
+          "value": 1.1,
+          "value0": 1.64,
+          "ovalue": "2.5",
+          "ovalue0": "1.25",
+          "type": "under",
+          "update_time": "2023-10-04T14:52:14.000Z"
+        }
+      ],
+      "159": [
+        {
+          "value": 1.64,
+          "value0": 1.58,
+          "ovalue": "0",
+          "ovalue0": "0",
+          "type": "1",
+          "update_time": "2023-10-04T14:32:28.000Z"
+        },
+        {
+          "value": 2.26,
+          "value0": 2.38,
+          "ovalue": "0",
+          "ovalue0": "0",
+          "type": "2",
+          "update_time": "2023-10-04T14:32:28.000Z"
+        }
+      ],
+      "160": [
+        {
+          "value": 2.61,
+          "value0": 2.26,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T14:32:28.000Z"
+        },
+        {
+          "value": 3.21,
+          "value0": 3.51,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T14:32:28.000Z"
+        },
+        {
+          "value": 2.41,
+          "value0": 2.61,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T14:32:28.000Z"
+        }
+      ],
+      "161": [
+        {
+          "value": 1.96,
+          "value0": 1.7,
+          "ovalue": "1.5",
+          "ovalue0": "1.25",
+          "type": "over",
+          "update_time": "2023-10-04T14:46:50.000Z"
+        },
+        {
+          "value": 1.85,
+          "value0": 2.14,
+          "ovalue": "1.5",
+          "ovalue0": "1.25",
+          "type": "under",
+          "update_time": "2023-10-04T14:46:50.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 236,
+    "book_name": "Betway",
+    "book_logo": "//img.calfscore.com/bookies/236.png",
+    "odds": {
+      "2": [
+        {
+          "value": 1.95,
+          "value0": 1.53,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T22:56:57.000Z"
+        },
+        {
+          "value": 3.3,
+          "value0": 4.75,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T22:56:57.000Z"
+        },
+        {
+          "value": 3.5,
+          "value0": 4.2,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T22:56:57.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.73,
+          "value0": 1.57,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-10-03T09:41:58.000Z"
+        },
+        {
+          "value": 2,
+          "value0": 2.25,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-10-03T09:41:58.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.6,
+          "value0": 2.05,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T22:57:01.000Z"
+        },
+        {
+          "value": 3.8,
+          "value0": 5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T22:57:01.000Z"
+        },
+        {
+          "value": 2.2,
+          "value0": 2.4,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T22:57:01.000Z"
+        }
+      ],
+      "14": [
+        {
+          "value": 2.5,
+          "value0": 2.25,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-09-30T22:57:02.000Z"
+        },
+        {
+          "value": 1.48,
+          "value0": 1.57,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-09-30T22:57:02.000Z"
+        }
+      ],
+      "27": [
+        {
+          "value": 2.4,
+          "value0": 1.88,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T22:57:08.000Z"
+        },
+        {
+          "value": 3.5,
+          "value0": 4.75,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T22:57:08.000Z"
+        },
+        {
+          "value": 2.5,
+          "value0": 2.8,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T22:57:08.000Z"
+        }
+      ],
+      "29": [
+        {
+          "value": 1.95,
+          "value0": 1.8,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-09-30T22:57:12.000Z"
+        },
+        {
+          "value": 1.75,
+          "value0": 1.91,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-09-30T22:57:12.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 357,
+    "book_name": "12bet",
+    "book_logo": "//img.calfscore.com/bookies/357.png",
+    "odds": {
+      "1": [
+        {
+          "value": 1.84,
+          "value0": 1.86,
+          "ovalue": "-0.5",
+          "ovalue0": "-1",
+          "type": "1",
+          "update_time": "2023-10-03T20:53:56.000Z"
+        },
+        {
+          "value": 2,
+          "value0": 1.7,
+          "ovalue": "-0.5",
+          "ovalue0": "-1",
+          "type": "2",
+          "update_time": "2023-10-03T20:53:56.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 2.01,
+          "value0": 1.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.05,
+          "value0": 5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        },
+        {
+          "value": 3.4,
+          "value0": 3.95,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T15:08:22.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.88,
+          "value0": 1.9,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "over",
+          "update_time": "2023-10-03T20:53:56.000Z"
+        },
+        {
+          "value": 1.94,
+          "value0": 1.88,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "under",
+          "update_time": "2023-10-03T20:53:56.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 361,
+    "book_name": "888Sport",
+    "book_logo": "//img.calfscore.com/bookies/361.png",
+    "odds": {
+      "1": [
+        {
+          "value": 1.73,
+          "value0": 1.95,
+          "ovalue": "-0.5",
+          "ovalue0": "-1.25",
+          "type": "1",
+          "update_time": "2023-10-04T05:09:42.000Z"
+        },
+        {
+          "value": 1.95,
+          "value0": 1.73,
+          "ovalue": "-0.5",
+          "ovalue0": "-1.25",
+          "type": "2",
+          "update_time": "2023-10-04T05:09:42.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 1.8,
+          "value0": 1.44,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 3.8,
+          "value0": 6.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 3.8,
+          "value0": 4.33,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.62,
+          "value0": 1.53,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "over",
+          "update_time": "2023-10-03T10:40:53.000Z"
+        },
+        {
+          "value": 2.15,
+          "value0": 2.3,
+          "ovalue": "2.5",
+          "ovalue0": "2.5",
+          "type": "under",
+          "update_time": "2023-10-03T10:40:53.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.3,
+          "value0": 1.91,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        },
+        {
+          "value": 3.8,
+          "value0": 5.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        },
+        {
+          "value": 2.38,
+          "value0": 2.4,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:37.000Z"
+        }
+      ],
+      "13": [
+        {
+          "value": 1.85,
+          "value0": 1.85,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.5",
+          "type": "1",
+          "update_time": "2023-10-03T10:04:50.000Z"
+        },
+        {
+          "value": 1.8,
+          "value0": 1.8,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.5",
+          "type": "2",
+          "update_time": "2023-10-03T10:04:50.000Z"
+        }
+      ],
+      "14": [
+        {
+          "value": 2.4,
+          "value0": 2.3,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-09-30T16:49:33.000Z"
+        },
+        {
+          "value": 1.5,
+          "value0": 1.53,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-09-30T16:49:33.000Z"
+        }
+      ],
+      "27": [
+        {
+          "value": 2.1,
+          "value0": 1.7,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 3.8,
+          "value0": 5.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        },
+        {
+          "value": 2.63,
+          "value0": 2.88,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-09-30T16:49:42.000Z"
+        }
+      ]
+    }
+  },
+  {
+    "book_id": 379,
+    "book_name": "Dafabet",
+    "book_logo": "//img.calfscore.com/bookies/379.png",
+    "odds": {
+      "1": [
+        {
+          "value": 2.01,
+          "value0": 1.86,
+          "ovalue": "-0.5",
+          "ovalue0": "-1",
+          "type": "1",
+          "update_time": "2023-10-04T07:26:04.000Z"
+        },
+        {
+          "value": 1.83,
+          "value0": 1.94,
+          "ovalue": "-0.5",
+          "ovalue0": "-1",
+          "type": "2",
+          "update_time": "2023-10-04T07:26:04.000Z"
+        }
+      ],
+      "2": [
+        {
+          "value": 2.01,
+          "value0": 1.5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-03T05:00:02.000Z"
+        },
+        {
+          "value": 3.05,
+          "value0": 5,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-03T05:00:02.000Z"
+        },
+        {
+          "value": 3.4,
+          "value0": 3.95,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-03T05:00:02.000Z"
+        }
+      ],
+      "3": [
+        {
+          "value": 1.98,
+          "value0": 1.9,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "over",
+          "update_time": "2023-10-04T07:26:04.000Z"
+        },
+        {
+          "value": 1.84,
+          "value0": 1.88,
+          "ovalue": "2.75",
+          "ovalue0": "3",
+          "type": "under",
+          "update_time": "2023-10-04T07:26:04.000Z"
+        }
+      ],
+      "12": [
+        {
+          "value": 2.47,
+          "value0": 2.18,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "1",
+          "update_time": "2023-10-04T00:33:39.000Z"
+        },
+        {
+          "value": 4.05,
+          "value0": 4.25,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "2",
+          "update_time": "2023-10-04T00:33:39.000Z"
+        },
+        {
+          "value": 2.14,
+          "value0": 2.25,
+          "ovalue": null,
+          "ovalue0": null,
+          "type": "x",
+          "update_time": "2023-10-04T00:33:39.000Z"
+        }
+      ],
+      "13": [
+        {
+          "value": 2.08,
+          "value0": 2.08,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.5",
+          "type": "1",
+          "update_time": "2023-10-04T07:26:05.000Z"
+        },
+        {
+          "value": 1.76,
+          "value0": 1.72,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.5",
+          "type": "2",
+          "update_time": "2023-10-04T07:26:05.000Z"
+        }
+      ],
+      "14": [
+        {
+          "value": 2.09,
+          "value0": 1.96,
+          "ovalue": "1.25",
+          "ovalue0": "1.25",
+          "type": "over",
+          "update_time": "2023-10-04T07:26:08.000Z"
+        },
+        {
+          "value": 1.73,
+          "value0": 1.82,
+          "ovalue": "1.25",
+          "ovalue0": "1.25",
+          "type": "under",
+          "update_time": "2023-10-04T07:26:08.000Z"
+        }
+      ],
+      "28": [
+        {
+          "value": 2.03,
+          "value0": 1.97,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.25",
+          "type": "1",
+          "update_time": "2023-10-04T00:33:42.000Z"
+        },
+        {
+          "value": 1.81,
+          "value0": 1.87,
+          "ovalue": "-0.25",
+          "ovalue0": "-0.25",
+          "type": "2",
+          "update_time": "2023-10-04T00:33:42.000Z"
+        }
+      ],
+      "29": [
+        {
+          "value": 2.01,
+          "value0": 1.91,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "over",
+          "update_time": "2023-10-04T00:33:43.000Z"
+        },
+        {
+          "value": 1.81,
+          "value0": 1.91,
+          "ovalue": "1.5",
+          "ovalue0": "1.5",
+          "type": "under",
+          "update_time": "2023-10-04T00:33:43.000Z"
+        }
+      ]
+    }
+  }
+]
