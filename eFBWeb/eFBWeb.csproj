@@ -77,12 +77,20 @@
     <Content Include="Images\Corner.png" />
     <Content Include="Images\RedCard.png" />
     <Content Include="Images\YellowCard.png" />
+    <Content Include="Main_BDL.aspx" />
     <Content Include="Main.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Main_BDL.aspx.cs">
+      <DependentUpon>Main_BDL.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main_BDL.aspx.designer.cs">
+      <DependentUpon>Main_BDL.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.aspx.cs">
       <DependentUpon>Main.aspx</DependentUpon>

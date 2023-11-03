@@ -43,7 +43,7 @@ namespace wsGetFBInfo
             tmrStart_BDL.AutoReset = true;
             tmrStart_BDL.Start();
 
-            tmrUpdateHistory_BDL = new Timer(60000);
+            tmrUpdateHistory_BDL = new Timer(3000);
             tmrUpdateHistory_BDL.Elapsed += TmrUpdateHistory_BDL_Elapsed;
             tmrUpdateHistory_BDL.Enabled = true;
             tmrUpdateHistory_BDL.AutoReset = true;
@@ -54,13 +54,13 @@ namespace wsGetFBInfo
             tmrStart.Elapsed += TmrStart_Elapsed;
             tmrStart.Enabled = true;
             tmrStart.AutoReset = true;
-            tmrStart.Start();
+            //tmrStart.Start();
 
             tmrUpdateHistory = new Timer(60000);
             tmrUpdateHistory.Elapsed += TmrUpdateHistory_Elapsed;
             tmrUpdateHistory.Enabled = true;
             tmrUpdateHistory.AutoReset = true;
-            tmrUpdateHistory.Start();
+            //tmrUpdateHistory.Start();
         }
 
         public void TmrUpdateHistory_BDL_Elapsed(object sender, ElapsedEventArgs e)
@@ -95,7 +95,7 @@ namespace wsGetFBInfo
                 using (SqlConnection myConn = new SqlConnection(DBConn))
                 {
                     myConn.Open();
-                    SaveListMatch_BDL(lstMatch, myConn);
+                    //SaveListMatch_BDL(lstMatch, myConn);
                     UpdateListMatch_BDL(myConn);
                 }
             }
@@ -324,6 +324,7 @@ namespace wsGetFBInfo
                             {
                                 dr = dt.Rows.Add();
                                 dr["is_load_his"] = false;
+                                dr["is_his"] = false;
                                 dr["hdc_ns"] = match.hdc.ToSqlParam();
                                 dr["tx_ns"] = match.tx.ToSqlParam();
                             }
@@ -348,6 +349,7 @@ namespace wsGetFBInfo
         {
             try
             {
+                if (myConn.State != ConnectionState.Open) { myConn.Open(); }
                 string KetQua = GetApiData("https://www.bongdalu5.com/football/match/live-" + id);
                 HtmlDocument doc = new HtmlDocument();
                 doc.LoadHtml(KetQua);
@@ -382,6 +384,7 @@ namespace wsGetFBInfo
                         {
                             dr = dt.Rows.Add();
                             dr["id"] = id;
+                            dr["is_his"] = true;
                         }
                         else
                         {
@@ -504,8 +507,8 @@ namespace wsGetFBInfo
                             }
 
                             HtmlNode nodeHDPOdds = doc.GetElementbyId("hdpOdds");
-                            HtmlNode nodeHDPKeoSom_before = nodeHDPOdds.Descendants("tr").FirstOrDefault(c => c.Attributes["data-comp"] != null && c.Attributes["data-comp"].Value == "lg_31");
-                            HtmlNode nodeHDPKeoSom_after = nodeHDPOdds.Descendants("tr").LastOrDefault(c => c.Attributes["data-comp"] != null && c.Attributes["data-comp"].Value == "lg_31");
+                            HtmlNode nodeHDPKeoSom_before = nodeHDPOdds?.Descendants("tr").FirstOrDefault(c => c.Attributes["data-comp"] != null && c.Attributes["data-comp"].Value == "lg_31");
+                            HtmlNode nodeHDPKeoSom_after = nodeHDPOdds?.Descendants("tr").LastOrDefault(c => c.Attributes["data-comp"] != null && c.Attributes["data-comp"].Value == "lg_31");
 
                             HtmlNode nodeHDP_before = nodeHDPKeoSom_before?.Descendants("td").FirstOrDefault(c => c.Attributes["data-of"] != null);
                             HtmlNode nodeHDP_after = nodeHDPKeoSom_after?.Descendants("td").LastOrDefault(c => c.Attributes["data-of"] != null);
@@ -520,8 +523,8 @@ namespace wsGetFBInfo
 
 
                             HtmlNode nodeOUOdds = doc.GetElementbyId("ouOdds");
-                            HtmlNode nodeOUKeoSom_before = nodeOUOdds.Descendants("tr").FirstOrDefault(c => c.Attributes["data-comp"] != null && c.Attributes["data-comp"].Value == "ou_31");
-                            HtmlNode nodeOUKeoSom_after = nodeOUOdds.Descendants("tr").LastOrDefault(c => c.Attributes["data-comp"] != null && c.Attributes["data-comp"].Value == "ou_31");
+                            HtmlNode nodeOUKeoSom_before = nodeOUOdds?.Descendants("tr").FirstOrDefault(c => c.Attributes["data-comp"] != null && c.Attributes["data-comp"].Value == "ou_31");
+                            HtmlNode nodeOUKeoSom_after = nodeOUOdds?.Descendants("tr").LastOrDefault(c => c.Attributes["data-comp"] != null && c.Attributes["data-comp"].Value == "ou_31");
                             HtmlNode nodeOU_before = nodeOUKeoSom_before?.Descendants("td").FirstOrDefault(c => c.Attributes["data-of"] != null);
                             HtmlNode nodeOU_after = nodeOUKeoSom_after?.Descendants("td").LastOrDefault(c => c.Attributes["data-of"] != null);
 
@@ -529,7 +532,6 @@ namespace wsGetFBInfo
                             {
                                 dr["tx_ns"] = nodeOU_before.Attributes["data-of"].Value.Split(',')[1];
                             }
-
                             if (nodeOU_after != null)
                             {
                                 dr["tx_now"] = nodeOU_after.Attributes["data-of"].Value.Split(',')[1];
@@ -609,59 +611,57 @@ namespace wsGetFBInfo
         }
         private static void UpdateMatchHistory_BDL(SqlConnection myConn)
         {
-            using (SqlDataAdapter daMatch = new SqlDataAdapter("SELECT TOP 1 * FROM DMatch_BDL WHERE match_time >= DATEADD(DAY,-1,GETDATE()) AND is_load_his = 0 ORDER BY match_time DESC", myConn))
+            DataTable dtMatch = MyApp.Dao.GetTable("SELECT TOP 10 * FROM DMatch_BDL WHERE match_time >= DATEADD(MINUTE,-120,GETDATE()) AND match_time <= DATEADD(HOUR,6,GETDATE()) AND home_id IS NOT NULL AND is_his = 0 AND is_load_his = 0 ORDER BY match_time ASC", null, myConn);
+
+            if (dtMatch.Rows.Count == 0)
             {
-                using (DataTable dtMatch = new DataTable())
+                dtMatch = MyApp.Dao.GetTable("SELECT TOP 10 * FROM DMatch_BDL WHERE match_time >= DATEADD(MINUTE,-120,GETDATE()) AND home_id IS NOT NULL AND is_his = 0 AND is_load_his = 0 ORDER BY match_time ASC", null, myConn);
+            }
+
+            foreach (DataRow drMatch in dtMatch.Rows)
+            {
+                string id = drMatch["id"].ToString();
+                try
                 {
-                    daMatch.Fill(dtMatch);
-
-                    foreach (DataRow drMatch in dtMatch.Rows)
+                    string KetQua = GetApiData("https://www.bongdalu5.com/football/match/h2h-" + id);
+                    HtmlDocument doc = new HtmlDocument();
+                    doc.LoadHtml(KetQua);
+                    HtmlNode node_list_h2h = doc.GetElementbyId("e5_1");
+                    if (node_list_h2h != null)
                     {
-                        string id = drMatch["id"].ToString();
-                        try
+                        foreach (HtmlNode nodeH2H in node_list_h2h.Descendants("div").Where(c => c.Attributes["onclick"] != null && c.Attributes["onclick"].Value.StartsWith("goTo")))
                         {
-                            string KetQua = GetApiData("https://www.bongdalu5.com/football/match/h2h-" + id);
-                            HtmlDocument doc = new HtmlDocument();
-                            doc.LoadHtml(KetQua);
-                            HtmlNode node_list_h2h = doc.GetElementbyId("e5_1");
-                            if (node_list_h2h != null)
-                            {
-                                foreach (HtmlNode nodeH2H in node_list_h2h.Descendants("div").Where(c => c.Attributes["onclick"] != null && c.Attributes["onclick"].Value.StartsWith("goTo")))
-                                {
-                                    string id_his = nodeH2H.Attributes["onclick"].Value.Split('/')[3].Split('-')[1].Split('\'')[0];
-                                    SaveMatchById_BDL(id_his, myConn);
-                                }
-                            }
-
-                            HtmlNode node_list_home = doc.DocumentNode.Descendants("table").FirstOrDefault(c => c.Attributes["name"] != null && c.Attributes["name"].Value == "lm_home_data");
-                            if (node_list_home != null)
-                            {
-                                foreach (HtmlNode nodeHome in node_list_home.Descendants("div").Where(c => c.Attributes["onclick"] != null && c.Attributes["onclick"].Value.StartsWith("goTo")))
-                                {
-                                    string id_his = nodeHome.Attributes["onclick"].Value.Split('/')[3].Split('-')[1].Split('\'')[0];
-                                    SaveMatchById_BDL(id_his, myConn);
-                                }
-                            }
-
-                            HtmlNode node_list_away = doc.DocumentNode.Descendants("table").FirstOrDefault(c => c.Attributes["name"] != null && c.Attributes["name"].Value == "lm_guest_data");
-                            if (node_list_away != null)
-                            {
-                                foreach (HtmlNode nodeAway in node_list_away.Descendants("div").Where(c => c.Attributes["onclick"] != null && c.Attributes["onclick"].Value.StartsWith("goTo")))
-                                {
-                                    string id_his = nodeAway.Attributes["onclick"].Value.Split('/')[3].Split('-')[1].Split('\'')[0];
-                                    SaveMatchById_BDL(id_his, myConn);
-                                }
-                            }
-
-                            drMatch["is_load_his"] = 1;
-                        }
-                        catch (Exception ex)
-                        {
-                            MyApp.Log.GhiLog("UpdateMatchHistory_BDL", ex, id);
-                            throw ex;
+                            string id_his = nodeH2H.Attributes["onclick"].Value.Split('/')[3].Split('-')[1].Split('\'')[0];
+                            SaveMatchById_BDL(id_his, myConn);
                         }
                     }
-                    dtMatch.Update(daMatch);
+
+                    HtmlNode node_list_home = doc.DocumentNode.Descendants("table").FirstOrDefault(c => c.Attributes["name"] != null && c.Attributes["name"].Value == "lm_home_data");
+                    if (node_list_home != null)
+                    {
+                        foreach (HtmlNode nodeHome in node_list_home.Descendants("div").Where(c => c.Attributes["onclick"] != null && c.Attributes["onclick"].Value.StartsWith("goTo")))
+                        {
+                            string id_his = nodeHome.Attributes["onclick"].Value.Split('/')[3].Split('-')[1].Split('\'')[0];
+                            SaveMatchById_BDL(id_his, myConn);
+                        }
+                    }
+
+                    HtmlNode node_list_away = doc.DocumentNode.Descendants("table").FirstOrDefault(c => c.Attributes["name"] != null && c.Attributes["name"].Value == "lm_guest_data");
+                    if (node_list_away != null)
+                    {
+                        foreach (HtmlNode nodeAway in node_list_away.Descendants("div").Where(c => c.Attributes["onclick"] != null && c.Attributes["onclick"].Value.StartsWith("goTo")))
+                        {
+                            string id_his = nodeAway.Attributes["onclick"].Value.Split('/')[3].Split('-')[1].Split('\'')[0];
+                            SaveMatchById_BDL(id_his, myConn);
+                        }
+                    }
+
+                    MyApp.Dao.ExecSQL("UPDATE DMatch_BDL SET is_load_his = 1 WHERE id = " + id, null, myConn);
+                }
+                catch (Exception ex)
+                {
+                    MyApp.Log.GhiLog("UpdateMatchHistory_BDL", ex, id);
+                    throw ex;
                 }
             }
         }
